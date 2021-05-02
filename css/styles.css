@@ -19,7 +19,49 @@ body{
 
 /*----- Section starting -----*/
 
-    /*--- Añadir estilos aqui ---*/
+/*----- 7ma Sección (ROBERTO) -----*/
 
+section.Seccion-7-Rob
+{
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 20px;
+    padding-left:17em;
+    padding-right: 17em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(192, 204, 209);
+}
+h2.Titulo-7-Rob
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 29, 104);
+}
+div.Div-7-Rob
+{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    padding: 2em;
+}
+img.Img-7-Rob
+{
+    max-width: 15%;
+    height: auto;
+}
+hr.HR-7-Rob
+{
+    text-align: center;
+    border: 1px solid red;
+    max-width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/*----- 7ma Sección (ROBERTO) -----*/
 
 /*----- Section ending -----*/
